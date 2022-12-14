@@ -6,7 +6,7 @@ steps:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
     cloudFoundry:
-      api: 'https://api.cf.us10-001.hana.ondemand.com/'
+      apiEndpoint: 'https://api.cf.us10-001.hana.ondemand.com/'
       org: '932f74detrial'
       space: 'dev'
       credentialsId: 'CF_CREDENTIALSID'
